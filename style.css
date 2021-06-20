@@ -31,7 +31,7 @@ body{
 }
 .container1 .box{
     position: absolute;
-    top: 50%;  left: 15%;
+    top: 55%;  left: 15%;
     transform: translateY(-50%);
     background: #fff;
     padding: 30px 50px;   width: 400px;
@@ -156,7 +156,7 @@ a{
     position: absolute;
     z-index: 9999;
     left: 150px;
-    top: 50px;
+    top: 25px;
 }
 .login_text > p{
     line-height: 24px;
@@ -164,4 +164,9 @@ a{
     font-size: 20px;
     font-weight: 600;
     color: aliceblue;
+}
+.big_text{
+    font-size: 50px !important;
+    font-weight: 600;
+    line-height: 50px !important;
 }
